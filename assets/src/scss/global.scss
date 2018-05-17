@@ -6,48 +6,7 @@ html, body {
     height: 100%;
 }
 
+// 用來辨識當前 screen
 .susy-screen {
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-
-
-    .mobile {
-        @include susy-breakpoint($mobile) {
-            display: block;
-        }
-        @include susy-breakpoint($pad) {
-            display: none;
-        }
-        @include susy-breakpoint($desktop) {
-            display: none;
-        }
-    }
-
-    .pad {
-        @include susy-breakpoint($mobile) {
-            display: none;
-        }
-        @include susy-breakpoint($pad) {
-            display: block;
-        }
-        @include susy-breakpoint($desktop) {
-            display: none;
-        }
-    }
-
-    .desktop {
-        @include susy-breakpoint($mobile) {
-            display: none;
-        }
-        @include susy-breakpoint($pad) {
-            display: none;
-        }
-        @include susy-breakpoint($desktop) {
-            display: block;
-        }
-    }
-    
-    
-    
+    @include susyScreen;
 }
