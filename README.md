@@ -7,6 +7,7 @@
 - pad
 - desktop 
 
+關於 webpack 建立 Susy 3 環境可以參考[這裡](http://jsnwork.kiiuo.com/archives/2803/css-susy3-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B81%EF%BC%8C%E9%80%8F%E9%81%8E-webpack-%E5%BE%9E%E9%A0%AD%E9%96%8B%E5%A7%8B%E5%BB%BA%E7%AB%8B%E6%9E%B6%E6%A7%8B/)；Susy 3 部屬架構可以參考[這裡](http://jsnwork.kiiuo.com/archives/2806/css-susy3-%E9%83%A8%E5%B1%AC%E6%9E%B6%E6%A7%8B/)。
 
 ## 開始使用
 透過 npm 下載開發套件
