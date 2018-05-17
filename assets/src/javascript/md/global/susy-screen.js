@@ -22,6 +22,7 @@ $(function (){
                 })
             }
 
+            // 取得目前版面並觸發對應的 callable
             var _bindResize = function (param){
                 var layout = vs.current();
 
