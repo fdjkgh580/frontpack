@@ -17,5 +17,11 @@
             span
         </div>   
     </div>
+
+    <div class="susy-screen">
+        <div class="mobile">mobile</div>
+        <div class="pad">pad</div>
+        <div class="desktop">desktop</div>
+    </div>
 </body>
 </html>
