@@ -1,9 +1,12 @@
+@import "./config/global";
+
 * {
     box-sizing: border-box;
 }
  
 html, body {
     height: 100%;
+    font-family: 'Noto Sans TC' !important;
 }
 
 // 用來辨識當前 screen

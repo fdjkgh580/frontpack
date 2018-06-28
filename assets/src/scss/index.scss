@@ -1,41 +1,42 @@
 @import "./config/global";
-@import "global.scss";
  
 .container {
     // 寫法可參考範例 http://oddbird.net/2017/06/13/susy-spread/
     @include susy-breakpoint($mobile) {
         background: svg-grid() no-repeat scroll;
         height: 100%;
+        margin: 0 gutter();
     }
     @include susy-breakpoint($pad) {
         background: svg-grid() no-repeat scroll;
+        margin: 0 gutter();
     }
     @include susy-breakpoint($desktop) {
         background: svg-grid() no-repeat scroll;
+        margin: 0 gutter();
     }
 }
  
 .span {
+
     @include susy-breakpoint($mobile) {
         width: span(4);
-        margin-left: gutter();
-        background: #D94545;
-
-        line-height: 8rem;
-        text-align: center;
-        font-size: 5rem;
+        background: #d85555;
         color: white;
-        float: left;
+        font-size: 26px;
+        height: 120px;
+        text-align: center;
     }
     @include susy-breakpoint($pad) {
         width: span(6);
-        margin-left: span(1) + gutter() * 2;
-        background: #58B05E;
+        background: #22af92;
     }
     @include susy-breakpoint($desktop) {
         width: span(10);
-        margin-left: span(1) + gutter() * 2;
-        background: #5A61C3;
+        background: #5f7bca;
     }
     
+    
 }
+
+

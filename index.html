@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <script src="assets/dist/vendors.js"></script>
-    <script src="assets/dist/index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <script src="assets/dist/vendors.js?t=3"></script>
+    <script src="assets/dist/index.js?t=3"></script>
     <script>
         $(function (){
             console.log('全域使用 jQuery')
@@ -12,9 +13,13 @@
     </script>
 </head>
 <body>
+
     <div class="container">
         <div class="span">
-            span
+            <span>span, 使用 susy</span>
+            <button class="ui-button ui-widget ui-corner-all ui-button-icon-only" title="Button with icon only">
+                <span class="ui-icon ui-icon-gear"></span> Button with icon only
+            </button>
         </div>   
     </div>
 
