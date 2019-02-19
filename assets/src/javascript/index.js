@@ -23,6 +23,7 @@ window.jQuery = $
 
 $(function (){
 
+    console.log('helloWorld haha')
 
     //demo
     $( ".widget button" )
