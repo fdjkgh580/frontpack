@@ -21,6 +21,15 @@ module.exports = {
         publicPath: 'assets/dist/'
     },
 
+    // 絕對路徑的別名
+    resolve: {
+        alias: {
+            '@md': path.resolve(__dirname, 'assets/src/javascript/md'),
+            '@scss': path.resolve(__dirname, 'assets/src/scss'),
+        }
+    },
+
+
     // 優化設置
     optimization: {
  

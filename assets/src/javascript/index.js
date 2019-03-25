@@ -1,6 +1,6 @@
 // 載入 SCSS
-import '../scss/global/global.scss';
-import '../scss/index.scss';
+import '@scss/global/global.scss';
+import '@scss/index.scss';
  
 // 載入 jQuery Plugin
 import 'vmodel.js';
@@ -14,8 +14,8 @@ import 'melanke-watchjs';
 
 
 // 載入會使用到的 JS 程式碼
-import './md/global/susy-screen.js';
-import './md/button.js';
+import '@md/global/susy-screen.js';
+import '@md/button.js';
  
 // 若要全域使用加入這塊
 window.$ = $
