@@ -33,19 +33,19 @@ module.exports = {
     // 優化設置
     optimization: {
  
-        // 分離區塊
-        splitChunks: {
-            chunks: 'initial',
-            cacheGroups: {
- 
-                // 將 import 路徑出現 "\node_modules\" 或 "\md\global\" 或 "\scss\global\" 底下的共用程式碼
-                // 分離到 vendors.js
-                vendors: {
-                    test: /[\\/]node_modules[\\/]|[\\/]md[\\/]global[\\/]|[\\/]scss[\\/]global[\\/]/,
-                    name: "vendors",
-                }
-            }
-        }
+        // // 分離區塊
+        // splitChunks: {
+        //     chunks: 'initial',
+        //     cacheGroups: {
+        //
+        //         // 將 import 路徑出現 "\node_modules\" 或 "\md\global\" 或 "\scss\global\" 底下的共用程式碼
+        //         // 分離到 vendors.js
+        //         vendors: {
+        //             test: /[\\/]node_modules[\\/]|[\\/]md[\\/]global[\\/]|[\\/]scss[\\/]global[\\/]/,
+        //             name: "vendors",
+        //         }
+        //     }
+        // }
     },
 
     // 需要時再啟動，並搭配 UglifyJSPlugin sourceMap
